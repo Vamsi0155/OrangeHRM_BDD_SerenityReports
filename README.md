@@ -6,11 +6,12 @@ This project uses Selenium, Cucumber BDD, and Serenity Reports for automated tes
 ## Prerequisites
 - Java 17 or higher
 - Maven 3.6v or higher
+- Junit 5.0v or higher
 - Selenium 4.20v
 - Cucumber 7.16v
 - Serenity 4.1.4v
 
-## How to Run form cmd line
+## How to run form cmd line
 In the pom.xml, we have configured serenity reports as well as single-page reports.
 
 ### To build the Project
@@ -55,7 +56,7 @@ mvn clean install -Dcucumber.features=src/test/resources/Admin_Module/UserOperat
 1. For Root POM, give as "pom.xml"
 2. For Goals and Options, use the following command:
 ```bash
-mvn clean install -Dcucumber.features={$Features} -Dcucumber.filter.tags="@{$Tags}"
+clean install -Dcucumber.features={$Features} -Dcucumber.filter.tags="@{$Tags}"
 ```
 3. Go to "Advanced" and check the "use custom workspace". Add project directory path.
 
