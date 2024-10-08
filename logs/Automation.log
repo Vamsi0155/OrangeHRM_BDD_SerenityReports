@@ -1,0 +1,114 @@
+12:54:30.319 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Started **********************
+12:54:30.944 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:54:38.966 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:54:42.499 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:54:44.601 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:54:45.868 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test009
+12:54:56.420 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+12:54:58.500 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+12:55:05.036 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:55:05.224 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:55:05.225 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:55:05.700 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:55:08.302 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:55:17.501 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:55:18.107 [main] INFO  com.Orange.StepDefinitions.CommonSteps - new user is verified
+12:55:23.383 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:55:23.547 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:55:23.547 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:55:23.882 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:55:33.460 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:55:36.725 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:55:39.387 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:55:40.605 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test0010
+12:55:51.268 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+12:55:53.329 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+12:55:58.896 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:55:59.046 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:55:59.046 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:55:59.427 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:56:10.384 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:56:15.669 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:56:17.486 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:56:18.776 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test0011
+12:56:29.835 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+12:56:31.613 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+12:56:37.052 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:56:37.214 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:56:37.214 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:56:37.549 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:56:45.691 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:56:48.551 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:56:50.590 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:56:51.922 [main] INFO  com.Orange.StepDefinitions.CommonSteps - No user was existing with Test011
+12:57:02.814 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User created with below details
+12:57:05.482 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+12:57:11.648 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:57:11.797 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:57:11.797 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:57:12.102 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:57:15.006 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:57:23.107 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:57:24.950 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:57:26.286 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User is found and fetching details...
+12:57:26.300 [main] INFO  com.Orange.StepDefinitions.CommonSteps - searched/fetched user details
+12:57:29.222 [main] INFO  com.Orange.StepDefinitions.CommonSteps - new user is verified with below details
+12:57:35.247 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:57:35.428 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:57:35.428 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:57:35.893 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:57:42.850 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:57:45.729 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:57:47.322 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:57:48.415 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User is found and fetching details...
+12:57:48.431 [main] INFO  com.Orange.StepDefinitions.CommonSteps - searched/fetched user details
+12:57:51.755 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Edit option
+12:57:55.498 [main] INFO  com.Orange.StepDefinitions.CommonSteps - user modified with below details
+12:57:56.907 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+12:58:02.738 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:58:02.967 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:58:02.967 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:58:03.428 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+12:58:11.751 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+12:58:15.138 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+12:58:17.102 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+12:58:18.327 [main] INFO  com.Orange.StepDefinitions.CommonSteps - User is found and fetching details...
+12:58:18.350 [main] INFO  com.Orange.StepDefinitions.CommonSteps - searched/fetched user details
+12:58:20.745 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Delete option
+12:58:23.148 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Confirmed with Yes, Delete
+12:58:23.565 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Below message is verified
+12:58:29.141 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Logged out from application
+12:58:29.367 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+12:58:29.367 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+12:58:29.621 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Completed **********************
+13:12:12.388 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Started **********************
+13:12:13.231 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:12:19.839 [main] INFO  com.Orange.StepDefinitions.CommonSteps - Browser launched successfully
+13:12:23.053 [main] INFO  com.Orange.StepDefinitions.CommonSteps - logged into the application successfully
+13:12:24.612 [main] INFO  com.Orange.StepDefinitions.CommonSteps - clicked on the Admin of Menu Bar
+13:14:01.500 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Started **********************
+13:14:02.266 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:02.539 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:02.539 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:02.666 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:02.714 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:02.714 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:02.850 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:02.913 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:02.913 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:02.944 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:02.991 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:02.991 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:03.085 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:03.212 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:03.212 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:03.275 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:03.383 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:03.383 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:03.446 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:03.543 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:03.543 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:03.589 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered before scenario
+13:14:03.640 [main] INFO  com.Orange.StepDefinitions.Hooks - Browser is closed
+13:14:03.640 [main] INFO  com.Orange.StepDefinitions.Hooks - Entered after scenario
+13:14:03.672 [main] INFO  com.Orange.StepDefinitions.Hooks - ******************* Test Suit Completed **********************
