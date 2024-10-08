@@ -43,14 +43,11 @@ mvn clean install -Dcucumber.features=src/test/resources/Admin_Module/UserOperat
 
 #### General Section:
  Select "This project is parameterized" and set below parameters.
-1. Set 2 choice parameters and those are,
- - Profile
- - Browser Stack
-2. For 1st parameter, select String parameter and set below details:
+1. For 1st parameter, select String parameter and set below details:
  - Name: Features
  - Default value: src/test/resources/features
  - Description: -- Pass the features path here by separated coma (,). -- By default, it will pick up all features.
-3. For 2nd parameter, select choice parameter and set below details:
+2. For 2nd parameter, select choice parameter and set below details:
  - Name: Tags
  - Choices: Regression, Smoke, Sanity
  - Description: -- Choose the tags. By default Regression
