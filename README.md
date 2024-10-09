@@ -1,7 +1,22 @@
 # Cucumber BDD framework with Serenity reports
 
 ## Overview
-This project uses Selenium, Cucumber BDD, and Serenity Reports for automated testing.
+This repository contains a Cucumber BDD framework integrated with Serenity Reports for testing web applications. The framework follows behavior-driven development principles, providing a clear and structured approach to writing test scenarios. OrangeHRM, a practice web application, is used as the subject of UI automation testing.
+### Key Features
+#### Cucumber BDD:
+- Enables writing human-readable test scenarios that bridge the gap between non-technical stakeholders and developers.
+#### Serenity Reports:
+- Provides detailed, narrative-style test reports with test case histories and visual documentation.
+#### Parallel Testing:
+- Supports parallel execution of tests to optimize time and resources.
+#### Selenium Grid Integration:
+- Includes the necessary configuration for running tests on Selenium Grid, enabling cross-browser and cross-platform compatibility testing.
+#### Page Object Model (POM):
+- Helps structure test code for maintainability and reusability.
+#### Data-Driven Testing:
+- Supports parameterized tests using external data sources for greater test coverage.
+#### Cross-Browser Support:
+- Tests can be executed on different browsers like Chrome, Firefox, etc.
 
 ## Prerequisites
 - Java 17 or higher
@@ -10,6 +25,7 @@ This project uses Selenium, Cucumber BDD, and Serenity Reports for automated tes
 - Selenium 4.20v
 - Cucumber 7.16v
 - Serenity 4.1.4v
+- Selenium-Grid (latest version)
 
 ## How to run form cmd line
 In the pom.xml, we have configured serenity reports as well as single-page reports.
