@@ -77,3 +77,55 @@ clean install -Dcucumber.features={$Features} -Dcucumber.filter.tags="@{$Tags}"
 3. Go to "Advanced" and check the "use custom workspace". Add project directory path.
 
 Note: Add project path in the custom workspace field and Also remainings as per requirements.
+
+
+## Selenium Grid
+Selenium Grid is a tool that allows the execution of tests on multiple machines or virtual machines across different browsers, operating systems, and devices. This enables parallel test execution, reducing the time taken to run a test suite, and supports compatibility testing across various environments.
+
+### Key Concepts in Selenium Grid
+#### Hub:
+The central point that manages and distributes the test execution across different nodes. It receives the test request and routes it to the appropriate node for execution.
+#### Node:
+The machines or virtual machines that are connected to the Hub. These nodes execute the tests. Each node can be configured with different operating systems and browsers.
+
+### Types of Test Execution in Selenium Grid
+#### Parallel Execution
+Run multiple tests simultaneously across different environments to speed up test suites.
+#### Cross-Browser Testing
+Tests can be executed on different browsers (Chrome, Firefox, Safari, etc.) across different operating systems to ensure compatibility.
+#### Cross-Platform Testing
+Tests can be executed on different OS (Windows, macOS, Linux) and mobile devices, ensuring platform compatibility.
+
+
+## Selenium Grid 4.0
+The latest version, offering more flexibility and improvements over previous versions.
+
+### Features
+Grid 4 can operate in Standalone, Hub and Node, or Distributed modes,
+#### Standalone mode:
+A simplified mode where you can run everything in one place (ideal for local development).
+#### Hub and Node mode:
+Traditional mode where a Hub distributes tests to multiple Nodes.
+#### Distributed mode:
+Components of the Grid are broken up into multiple processes that can run independently (more scalable).
+
+### Standalone Setup (Single machine):
+1. Download "selenium-server-4.23.1.jar" from official site and place it.
+2. Open cmd and run below command to start Grid,
+~~~bash
+java -jar selenium-server-4.23.1.jar standalone
+~~~
+3. Open URL to see grid/sessions: http://localhost:4444/  (or) http://<your-ip>:4444/
+
+### Hub & Node setup (Multiple machines):
+1. Download on both Hub & Node machines "selenium-server-4.23.1.jar" and place it.
+2. Open cmd and run below cmd to make machine as Hub,
+~~~bash
+java -jar selenium-server-4.23.1.jar hub
+~~~
+3. Run below cmd to make machine as Node,
+~~~bash
+java -jar selenium-server-4.23.1.jar node --hub http://<hub-ip>:4444
+~~~
+4. Open URL to see grid/sessions: http://localhost:4444/  (or) http://<hub-ip>:4444/
+
