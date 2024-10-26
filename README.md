@@ -129,3 +129,88 @@ java -jar selenium-server-4.23.1.jar node --hub http://<hub-ip>:4444
 ~~~
 4. Open URL to see grid/sessions: http://localhost:4444/  (or) http://<hub-ip>:4444/
 
+
+## Docker
+Docker is a Platform as a Service that provides OS-level virtualization. It makes it easy to create, deploy, and run applications using containers. Containers act as a freshly installed OS, each with its own software, libraries, and configurations.
+
+### Selenium Grid Setup with Docker Containers (Manually)
+1. Pull Selenium-hub image by following command
+```bash
+docker pull selenium/hub
+```
+
+2. Pull FireFox image by following command
+```bash
+docker pull selenium/node-firefox
+```
+
+3. Pull Chrome image by following command
+```bash
+docker pull selenium/node-chrome
+```
+
+4. Verify the pulled all Images
+```bash
+docker images
+```
+
+5. Create a network grid
+```bash
+docker network create <grid_name>
+```
+For example,
+```bash
+docker network create grid
+```
+
+6. Create a Hub
+```bash
+docker run -d -p <ports_range>:<ports_range> --net <grid_name> --name <hub_name> <img_name>
+```
+For example,
+```bash
+docker run -d -p 4442-4444:4442-4444 --net grid --name selenium-hub selenium/hub
+```
+
+7. Create a Node's
+```bash
+docker run -d --net <grid_name> -e SE_EVENT_BUS_HOST=<hub_name> -e SE_EVENT_BUS_PUBLISH_PORT=<port_num> -e SE_EVENT_BUS_SUBSCRIBE_PORT=<port_num> <img_name>
+```
+For Chrome browser,
+```bash
+docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-chrome
+```
+For Firefox browser,
+```bash
+docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-firefox
+```
+
+8. When you are done using the Grid, and the containers have exited, the network can be removed with the following command
+```bash
+docker network rm grid
+```
+
+
+### Selenium Grid Setup with 'docker-compose.yaml' file
+1. Create a file docker-compose.yaml with Required configurations. For more visit: https://github.com/seleniumHQ/docker-selenium
+
+2. Run docker-compose.yaml from cmd
+```bash
+docker-compose up
+```
+
+3. To check hub & nodes running status:
+http://localhost:4444/grid/console
+
+4. Run the automation suite/tests
+
+5. To increase number of nodes for the browser
+```bash
+docker-compose scale chrome=3
+```
+
+6. To stop the grid and cleanup the created containers as well as runs
+```bash
+docker-compose down
+```
+
