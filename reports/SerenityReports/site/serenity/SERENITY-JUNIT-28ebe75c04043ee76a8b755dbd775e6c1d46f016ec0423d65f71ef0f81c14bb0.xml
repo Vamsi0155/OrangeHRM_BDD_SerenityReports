@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="2" failures="0" name="Let's create multiple users" skipped="0" tests="2" time="1.56" timestamp="2024-10-31 12:51:14"><testcase name="Create a new user for Orange HRM"><error message="URI is not hierarchical" type="java.lang.IllegalArgumentException">URI is not hierarchical</error><system-err>URI is not hierarchical&#13;
+com.Orange.StepDefinitions.Hooks.beforeScenario(Hooks.java:41)&#13;
+</system-err></testcase></testsuite>

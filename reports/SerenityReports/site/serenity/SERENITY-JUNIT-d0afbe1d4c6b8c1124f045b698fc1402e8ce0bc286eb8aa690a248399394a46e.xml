@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="2" failures="0" name="Let's create multiple users" skipped="0" tests="2" time="112.34" timestamp="2024-10-31 01:00:50"><testcase name="Create a new user for Orange HRM"><error message="WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver&#13;&#10;WebDriver reported the following message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: 'DESKTOP-6FQMBN1', ip: '192.168.0.148'&#13;&#10;See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver&#13;
+WebDriver reported the following message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-6FQMBN1', ip: '192.168.0.148'&#13;
+See below for more details.</error><system-err>WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver&#13;
+WebDriver reported the following message: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-6FQMBN1', ip: '192.168.0.148'&#13;
+See below for more details.&#13;
+com.Orange.StepDefinitions.BaseClass.loadBrowser(BaseClass.java:21)&#13;
+com.Orange.StepDefinitions.CommonSteps.launch_the_browser(CommonSteps.java:44)&#13;
+</system-err></testcase></testsuite>

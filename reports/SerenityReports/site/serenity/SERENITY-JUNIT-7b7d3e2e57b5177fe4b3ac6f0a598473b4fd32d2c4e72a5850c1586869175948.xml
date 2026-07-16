@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="4" failures="0" name="Verify the user creation, modification and deletion end to end" skipped="0" tests="4" time="10.62" timestamp="2024-10-31 12:51:14"><testcase name="Create a new user for Orange HRM"><error message="URI is not hierarchical" type="java.lang.IllegalArgumentException">URI is not hierarchical</error><system-err>URI is not hierarchical&#13;
+com.Orange.StepDefinitions.Hooks.beforeScenario(Hooks.java:41)&#13;
+</system-err></testcase><testcase name="A view the newly created user"><error message="URI is not hierarchical" type="java.lang.IllegalArgumentException">URI is not hierarchical</error><system-err>URI is not hierarchical&#13;
+com.Orange.StepDefinitions.Hooks.beforeScenario(Hooks.java:41)&#13;
+</system-err></testcase><testcase name="Modify the newly created user"><error message="URI is not hierarchical" type="java.lang.IllegalArgumentException">URI is not hierarchical</error><system-err>URI is not hierarchical&#13;
+com.Orange.StepDefinitions.Hooks.beforeScenario(Hooks.java:41)&#13;
+</system-err></testcase><testcase name="Delete the newly create user"><error message="URI is not hierarchical" type="java.lang.IllegalArgumentException">URI is not hierarchical</error><system-err>URI is not hierarchical&#13;
+com.Orange.StepDefinitions.Hooks.beforeScenario(Hooks.java:41)&#13;
+</system-err></testcase></testsuite>
